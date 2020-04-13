@@ -7,7 +7,7 @@ def init
   default_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
   welcome
-  display_board(default_board)s
+  display_board(default_board)
   ask_input
 end
 
