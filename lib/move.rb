@@ -20,10 +20,11 @@ end
 # Displaying
 def move(board, index, token_choice="X")
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board[index] = token_choice 
+  board[index] = token_choice
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  return board
 end
