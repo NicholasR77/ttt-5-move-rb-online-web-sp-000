@@ -5,8 +5,7 @@ end
 
 # Ask the user for some input
 def ask_input
-  puts "Where do you want to move?"
-  @input = gets.strip
+
 end
 
 #Test input method
