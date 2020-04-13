@@ -12,6 +12,6 @@ def input_to_index(input)
 end
 
 
-def move(index)
+def move(board_arr, index, token_choice="X")
 
 end
