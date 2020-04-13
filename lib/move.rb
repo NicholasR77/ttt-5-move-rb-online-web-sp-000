@@ -4,6 +4,7 @@ def welcome
 end
 
 def ask_input
+  puts "Where do you want to move?"
   input = gets.strip
 end
 
