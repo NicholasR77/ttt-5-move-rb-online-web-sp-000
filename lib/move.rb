@@ -1,3 +1,6 @@
+#Variables
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 # Greeting the user
 def welcome
   puts "Welcome to Tic Tac Toe!"
