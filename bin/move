@@ -5,12 +5,12 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 def init
   welcome
-  default_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   display_board(default_board)
   puts "Where do you want to move?"
   input = gets.strip
   index = input_to_index(input)
-  puts index
+  move()
 end
 
 init
