@@ -7,11 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-
-def move
-
+def input_to_index(str)
+  converted_str = str.to_i
 end
 
-def input_to_index
+
+def move
 
 end
