@@ -3,7 +3,6 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-def init
   welcome
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   display_board(board)
@@ -11,6 +10,3 @@ def init
   input = gets.strip
   index = input_to_index(input)
   move(board, index)
-end
-
-init
