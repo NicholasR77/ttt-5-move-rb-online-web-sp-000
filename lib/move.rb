@@ -19,7 +19,7 @@ end
 
 # Displaying
 def move(board, index, token_choice="X")
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] 
   board[index] = token_choice
   display_board(board)
 end
