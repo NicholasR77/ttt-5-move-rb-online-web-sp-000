@@ -21,5 +21,4 @@ end
 def move(board, index, token_choice="X")
   board[index] = token_choice
   display_board(board)
-  return board
 end
