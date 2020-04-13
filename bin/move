@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 def init
   welcome
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(default_board)
+  display_board(board)
   puts "Where do you want to move?"
   input = gets.strip
   index = input_to_index(input)
