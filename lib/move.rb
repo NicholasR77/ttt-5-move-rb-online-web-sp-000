@@ -3,9 +3,15 @@ def welcome
   puts "Welcome to Tic Tac Toe!"
 end
 
+# Ask the user for some input
 def ask_input
   puts "Where do you want to move?"
   @input = gets.strip
+end
+
+#Test input method
+def test_input(test)
+  puts test
 end
 
 #Define board
