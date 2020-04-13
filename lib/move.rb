@@ -8,10 +8,10 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  final_index = (input.to_i) - 1
+  index = (input.to_i) - 1
 end
 
 
-def move(board_arr, index, token_choice="X")
+def move(board, index, token_choice="X")
 
 end
