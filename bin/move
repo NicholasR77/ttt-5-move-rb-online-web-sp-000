@@ -10,7 +10,7 @@ def init
   puts "Where do you want to move?"
   input = gets.strip
   index = input_to_index(input)
-  move(board, index)
+  move(board, index, )
 end
 
 init
