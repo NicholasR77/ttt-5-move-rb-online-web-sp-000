@@ -3,16 +3,6 @@ def welcome
   puts "Welcome to Tic Tac Toe!"
 end
 
-# Ask the user for some input
-def ask_input
-
-end
-
-#Test input method
-def test_input(test)
-  puts test
-end
-
 #Define board
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
