@@ -4,11 +4,12 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 def init
-  default_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
   welcome
+  default_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   display_board(default_board)
-  ask_input
+
 end
 
 init
