@@ -5,7 +5,7 @@ end
 
 def ask_input
   puts "Where do you want to move?"
-  input = gets.strip
+  @input = gets.strip
 end
 
 #Define board
