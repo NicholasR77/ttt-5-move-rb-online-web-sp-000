@@ -3,6 +3,10 @@ def welcome
   puts "Welcome to Tic Tac Toe!"
 end
 
+def ask_input
+  input = gets.strip
+end
+
 #Define board
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
